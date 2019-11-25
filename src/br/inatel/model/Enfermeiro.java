@@ -10,7 +10,7 @@ package br.inatel.model;
  *
  * @author DMAX(dvrib)
  */
-public class Enfermeiro {
+public class Enfermeiro extends Contatos {
     private String cre;
     private String nome;
     private String telefone;

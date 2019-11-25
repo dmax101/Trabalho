@@ -10,7 +10,7 @@ package br.inatel.model;
  *
  * @author DMAX(dvrib)
  */
-public class Paciente {
+public class Paciente extends Contatos {
     private String cpf;
     private String nome;
     private int idade;
