@@ -21,10 +21,10 @@ public class Trabalho {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         // TODO code application logic here
-        
-        PacienteView tela = new PacienteView();
+
+        final PacienteView tela = new PacienteView();
         tela.setTitle("Paciente");
         tela.setVisible(true);
         
